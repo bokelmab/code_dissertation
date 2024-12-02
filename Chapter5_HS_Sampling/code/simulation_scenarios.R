@@ -1,0 +1,6 @@
+rel1 <- expression(2*(X[,1]>1)+0.5*X[,2]+X[,3]*X[,4]-4)
+treat1 <- expression(X[,2]^2)
+rel2 <- expression(X[,1]^2+0.5*X[,2]+X[,3]*X[,4]-7)
+treat2 <- expression(0.1+(1+X[,5]))
+rel3 <- expression(0.1*exp(X[,1])+0.5*X[,2]^3+X[,3]-7)
+treat3 <- expression(0.1+X[,5]*X[,6])
